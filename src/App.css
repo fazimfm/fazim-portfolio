@@ -1,0 +1,690 @@
+
+.navbar{
+  display: flex;
+  gap: 20px;
+  
+}
+.para{
+  background-color: transparent;
+  width: 100%;
+  /* margin-right: -50px;
+  margin-left: -20px; */
+  /* padding-left: 100%; */
+  text-transform: capitalize;
+  height: 300px;
+  text-align:justify;
+  padding: 20%;
+  margin-top: -15%;
+  font-size: larger;
+}
+.background{
+  
+  background-size: cover;
+  /* background-image: url(flat.jpg); */
+   width: 100%;
+   height: auto;
+   background-repeat: no-repeat;
+  background-position: center;
+  /* background-color: #1bd4de; */
+
+} 
+
+.home{
+
+    background-color:bisque; 
+/* background-image: url(back.png); */
+  .section{
+
+    width:100% ;
+    height: 50px;
+    position:sticky;
+    margin-bottom: -30px;
+    text-align: center;
+    color: rgb(255, 48, 48);
+    background-size:contain ;
+    /* background-image: url(21300.jpg); */
+  }
+  /* .projects{
+  
+  } */
+} */
+.edu{
+  background-color: chartreuse;
+  font-size:x-large;
+}
+
+
+
+/* / newww csss / */
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Background image for app */
+.background {
+  /* background-image: url(flat.jpg); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+
+.top {
+  padding-top: 25px;
+  padding: 5px;
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  background-color: whitesmoke;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  width: 100%;
+  height: 60px;
+}
+/* navbar  */
+.top {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 60px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #0ac8b9;
+}
+
+.menu-items {
+  display: flex;
+  gap: 25px;
+}
+
+.head {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.head:hover {
+  color: #0ac8b9;
+}
+/* hero image*/
+.hero-image img {
+  width: 250px;
+  height: 300px;
+  border-radius: 0%;
+  object-fit: cover;
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.4);
+  transition: 0.3s;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05);
+}
+
+/* Navigation links */
+.navbar {
+      margin-right: -925px;
+  display: flex;
+  gap: 20px;
+}
+
+/*  nav link */
+.navbar .head {
+    color: black;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar .head:hover {
+  color: darkorange;
+  border-bottom-color: darkorange;
+}
+
+/* Active nav link */
+.navbar .head.active {
+  color: crimson;
+  font-weight: bold;
+  border-bottom: 2px solid crimson;
+}
+
+/* Section container */
+.home {
+  width: 100%;
+  padding-top: 0px; /* space for sticky navbar */
+}
+
+/* Each section */
+.section {
+  width: 100%;
+  min-height: 150vh;
+  text-align: center;
+  padding: 100px 20px;
+  background-color: rgba(171, 92, 61, 0.742);
+  color: white;
+  scroll-margin-top: 80px; 
+  margin-bottom: 50px;
+}
+
+/* Example additional section style */
+.projects {
+  background-size: contain;
+ 
+
+}
+
+.about {
+  background-size: contain;
+  background-color: #444;
+}
+
+.contact {
+  background-size: contain;
+  background-color: #333;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  /* background-image: url(21300.jpg); */
+  /* background-color: whitesmoke; */
+  color: black;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+  text-align: left;
+  padding: 2rem;
+}
+
+.small-text {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.big-text {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+
+}
+
+.sub-text {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: rgba(96, 32, 185, 0.597);
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-btn {
+  background-color: white;
+  color: #ef233c;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: #f8f9fa;
+}
+
+/* Hero Image */
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+.hero-image:hover {
+  transform: scale(1.02);
+  transition: transform 0.8s ease;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* Other Sections */
+.section {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.top {
+  background-color: #E9F1FA;
+  /* background-image: url(yellow-toned.jpg); */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+
+.projects-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Common style for both projects */
+.project-card {
+  padding: 0%;
+  position: relative;
+  height:50vh;
+  margin: 4rem auto;
+  max-width: 80%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+/* Overlay text on background */
+.project-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 2rem;
+  text-align: left;
+}
+
+.project-overlay h2 {
+  font-size: 2rem;
+  color: #ff66b2;   /* Pink heading */
+  margin-bottom: 1rem;
+}
+
+.project-overlay p {
+  font-size: 1.5rem;
+}
+
+/* Background images for each project */
+.mini-project {
+  background-image: url('./mini.jpg');   /* your mini project image */
+}
+
+.main-project {
+  background-image: url('./main.jpg');   /* your main project image */
+}
+.project-card:hover {
+  transform: scale(1.02);
+  transition: transform 0.4s ease;
+}
+
+ .para {
+  color: #050505;
+  transition: 0.4s ease;
+  text-shadow:
+    0 0 6px rgba(239, 235, 0, 0.5),
+    0 0 14px rgba(232, 6, 176, 0.35);
+
+  position: relative;
+  cursor: pointer;
+}
+
+.para {
+  position: relative;
+  /* z-index: 1; */
+  /* display: inline-block; */
+  padding: 12px 20px; 
+  border-radius: 12px;
+  margin-top: 175px;
+  color:black;
+  font-weight:bold;
+  cursor: pointer;
+  transition: 0.4s ease;
+  text-align: center;
+  line-height: 155%;
+  word-spacing: 2.5px;
+  font-size: x-large;
+ text-align: justify ;
+ font-family: 'Times New Roman', Times, serif;
+  /* Optional: slight text glow */
+  text-shadow: 0 0 5px rgba(239, 239, 239, 0.8);
+}
+
+.para::before {
+  content: '';
+  position: absolute;
+  inset: 0; /* top: 0; right: 0; bottom: 0; left: 0; --> Covers full area */
+  background: rgba(255, 255, 255, 0.15); /* translucent white */
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px); /* for Safari */
+  border-radius: 12px;
+  z-index: -1;
+}
+
+.hero-text h1 {
+  font-family: 'Courier New', monospace; /* Typewriter feel */
+  font-size: 50px;
+  color: darkblue;
+}
+
+
+.download-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: darkcyan;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  display: inline-block;
+  box-shadow: 0 0 12px rgba(0, 255, 200, 0.5);
+}
+
+.download-btn:hover {
+  background-color: #00ddaa;
+  box-shadow: 0 0 20px rgba(0, 255, 200, 0.8);
+  transform: scale(1.05);
+}
+
+contact us
+
+/* CONTACT SECTION - PREMIUM STYLE */
+.section.contact {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #54ccff, #203a43, #2c5364);
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+.section.contact h1 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 20px;
+  z-index: 1;
+  position: relative;
+  color: #000000dd;
+  background-size: contain;
+}
+
+.section.contact p {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #060505;
+  z-index: 1;
+  position: relative;
+}
+
+/* Contact Info Box */
+.contact-info {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  z-index: 1;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.contact-info:hover {
+  transform: translateY(-5px);
+}
+
+.contact-info p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #000000;
+}
+.contact-info a {
+  color: #0d5af5;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.contact-info a:hover {
+  color: #010101;
+}
+
+/* Social Icons */
+.social-links {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 18px;
+  z-index: 1;
+  position: relative;
+}
+.social-links a {
+  margin: 0 12px;
+  color: #000000cc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.social-links a:hover {
+  color: #47a8f5;
+  transform: translateY(-2px);
+}
+
+/* Contact Form */
+.contact-form {
+  max-width: 655px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(101, 76, 76, 0.15);
+  padding: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.contact-form:hover {
+  transform: translateY(-5px);
+}
+
+.contact-form h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000000cc;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: rgba(125, 7, 7, 0.07);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 14px 16px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 17px;
+  color: black;
+  transition: all 0.3s ease;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #020202aa;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #47a8f5;
+  outline: none;
+  background-color: rgba(130, 24, 24, 0.12);
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(135deg, #5b86e5, #36d1dc);
+  color: black;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  opacity: 0.8;
+}
+
+/* {navbar logo}*/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 15px 40px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* pushes other menu items to right */
+}
+
+.logo {
+  margin-left: -650px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+
+.logo {
+  margin-left: -950px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  cursor: pointer;
+  box-shadow: 0px 0px 6px rgba(0,0,0,0.25);
+}
+
+.menu-items {
+  display: flex;
+  gap: 20px;
+}
+
+.head {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+  font-size: 18px;
+}
+.he{
+  font-size:500;
+}
+/* bck image for section */
+
+/* 1. Home Section with space theme */
+#home {
+  /* background: url('green.jpg') no-repeat center center/cover; */
+  color: white;
+  background-color: #00ABE4;
+  height: 100vh;
+  background-size: cover;
+}
+
+/* 2. Projects Section - tech background */
+#projects {
+  /* background: url('book\ \(1\).jpg') no-repeat center center/cover; */
+  color:maroon ;
+  background-color: #EFEFEF;
+  background-size: contain;
+}
+
+/* 3. About Section - personal/story vibe */
+#about {
+  background-size: contain;
+  /* background: url('leaf.jpg') no-repeat center center/cover; */
+  color: darkblue;
+  background-color: #00ABE4;
+  
+}
+
+/* 4. Contact Section - simple gradient or world map */
+#contact {
+  background: url('flat-lay-computer.jpg') no-repeat center center/cover;
+  color: white;
+  background-size: cover;
+  
+}
+
+.section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+/* 
+  background-color: rgba(0, 0, 0, 0.6); semi-dark overlay */
+  z-index: -1;
+}
+html {
+  scroll-behavior: smooth;
+}
+
